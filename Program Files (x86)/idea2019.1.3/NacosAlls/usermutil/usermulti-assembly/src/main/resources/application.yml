@@ -1,0 +1,16 @@
+server:
+  port: 8002
+
+#服务名
+
+spring:
+  application:
+    name: testOne
+  #nacos地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+logging:
+  level:
+    root: info
